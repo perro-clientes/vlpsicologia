@@ -9287,3 +9287,14 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.home-header {
+  height: 80vh;
+  min-height: 500px;
+  background-color: #000000;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .home-header p {
+    max-width: 600px; }
