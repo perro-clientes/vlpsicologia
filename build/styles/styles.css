@@ -9298,3 +9298,6 @@ textarea.form-control-lg {
   background-position: center; }
   .home-header p {
     max-width: 600px; }
+
+#home-sobre .row .col1 {
+  background-color: #000000; }
