@@ -4,11 +4,11 @@
 .home-header {
   height: 80vh;
   min-height: 500px;
-  background-color: #000000;
-  background-image: url();
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  color: #fff;
 
   p{
     max-width: 600px;
@@ -17,20 +17,18 @@
 
 #home-sobre {
 
+  img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+#home-modalidad {
+
   .row {
 
     .col1 {
       background-color: #000000;
-    }
-  }
-}
-
-#home-servicios {
-
-  .card {
-
-    .card-body {
-
     }
   }
 }
