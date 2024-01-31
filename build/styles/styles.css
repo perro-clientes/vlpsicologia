@@ -9296,12 +9296,63 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   color: #fff; }
-  .home-header p {
+  .home-header h1, .home-header .h1 {
+    font-family: 'Forum', serif;
+    font-size: 4em;
     max-width: 600px; }
+  .home-header p {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 700px; }
 
 #home-sobre img {
   width: 100%;
   max-width: 400px; }
 
-#home-modalidad .row .col1 {
-  background-color: #000000; }
+#home-sobre h2, #home-sobre .h2 {
+  font-family: 'Forum', serif;
+  font-size: 3em; }
+
+#home-sobre p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300; }
+
+#home-modalidad .row {
+  box-shadow: 0 0.5rem 1rem rgba(85, 25, 92, 0.111) !important;
+  max-width: 1000px;
+  margin: auto; }
+  #home-modalidad .row .col1 {
+    background-color: #000000;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+
+#home-modalidad h3, #home-modalidad .h3 {
+  font-family: 'Forum', serif;
+  font-size: 3em; }
+
+#home-modalidad li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 300; }
+
+#home-servicios {
+  background-color: #9d5ba41a; }
+  #home-servicios .card-body {
+    box-shadow: 0 0.5rem 1rem rgba(85, 25, 92, 0.111) !important; }
+  #home-servicios h2, #home-servicios .h2, #home-servicios h4, #home-servicios .h4 {
+    font-family: 'Forum', serif; }
+  #home-servicios h2, #home-servicios .h2 {
+    font-size: 3em; }
+  #home-servicios h4, #home-servicios .h4 {
+    font-size: 2em;
+    color: #54195b; }
+  #home-servicios li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 300; }
+
+footer {
+  background-color: #935699; }
+  footer li {
+    list-style-type: none; }
